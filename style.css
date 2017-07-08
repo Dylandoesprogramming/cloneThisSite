@@ -29,7 +29,7 @@ nav{
 nav li{
   display: inline;
   margin:0 5px;
-  padding:4vh 5%;
+  padding:3vh 3%;
   list-style-type: none;
   overflow: hidden;
 }
@@ -41,7 +41,7 @@ nav ul{
 }
 
 .nav-sm{
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
   color: #bcbaba;
 }
@@ -50,7 +50,7 @@ li:hover{
   color:#fff;
 }
 
-@media screen and (min-width: 500px){
+@media only screen and (min-width: 500px){
   nav{
     height: 5vh;
     margin: 0;
@@ -59,7 +59,7 @@ li:hover{
 
   nav li{
     margin:0;
-    padding:2vh 3vw;
+    padding:1.5vh 4vw;
   }
 }
 
