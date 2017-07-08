@@ -4,6 +4,7 @@
 }
 
 html, body{
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -116,16 +117,16 @@ main p{
 
 /*START FOOTER*/
 .logo{
-  padding:10% 20%;
-  padding-bottom: 0%;
-  margin: 0 auto;
-  width:100%;
-  height:50%;
+  display: flex;
+  justify-content: center;
+  margin:0;
+  padding:0;
 }
-@media screen and (min-width: 500px){
+
+@media only screen and (min-width: 700px){
   .logo{
     padding: 0;
-    margin: 0 41%;
+    margin: 0 auto;
     width:auto;
     height: auto;
   }
