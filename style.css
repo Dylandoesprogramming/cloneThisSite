@@ -98,7 +98,7 @@ main p{
   padding: 1% 15%;
   font-size: 1.5em;
 }
-
+/*USE ID'S TO SELECT BUTTON*/
 #myBtn{
   display: block;
   margin: 20px auto;
@@ -111,9 +111,13 @@ main p{
   height:100px;
   border-radius: 50px;
 }
-
+/*CHANGE BUTTON COLOR ON HOVER*/
 #myBtn:hover{
   background-color: #42AED2;
+}
+/*REMOVE BUTTON SELECTED OUTLINE*/
+#myBtn:focus{
+  outline:0;
 }
 
 /*END BANNER SUBTEXT*/

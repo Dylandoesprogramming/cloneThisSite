@@ -9,10 +9,10 @@ var span = document.getElementsByClassName("close")[0];
 var btn = document.getElementById("myBtn");
 
 //open on load
-window.onload = function(){
-  console.log("Function on trigger!");
-  modal.style.display = "block";
-};
+// window.onload = function(){
+//   console.log("Function on trigger!");
+//   modal.style.display = "block";
+// };
 
 window.onclick = function(event) {
   if(event.target == modal || event.target == span) {
