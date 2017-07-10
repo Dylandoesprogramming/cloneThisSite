@@ -6,6 +6,8 @@ var modal = document.getElementById('myModal');
 //Get the <span> that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+var btn = document.getElementById("myBtn");
+
 //open on load
 window.onload = function(){
   console.log("Function on trigger!");
@@ -17,3 +19,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
+
+btn.onclick = function(){
+  modal.style.display = "block";
+}

@@ -98,6 +98,24 @@ main p{
   padding: 1% 15%;
   font-size: 1.5em;
 }
+
+#myBtn{
+  display: block;
+  margin: 20px auto;
+  background-color: #0E4C7F;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  width:30%;
+  height:100px;
+  border-radius: 50px;
+}
+
+#myBtn:hover{
+  background-color: #42AED2;
+}
+
 /*END BANNER SUBTEXT*/
 
 /*START FLEX/FLOAT IMAGES*/
@@ -127,6 +145,7 @@ main p{
   .logo{
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 20px;
     width:auto;
     height: auto;
   }
@@ -134,6 +153,7 @@ main p{
 
 
 footer p{
+  border-top: 1px solid #000;
   font-size: 12px;
   text-align: center;
 }
